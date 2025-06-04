@@ -1,5 +1,5 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Rubik', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -12,6 +12,14 @@ html
     font-size: 62.5%;
 }
 
+main
+{
+    border: 1px solid #8b8b8b;
+    max-width: 93.7rem;
+    margin: 10rem auto;
+
+    box-shadow: 0rem 0rem 0.8rem 0.1px;
+}
 h2
 {
     font-size: 2.2rem;
@@ -38,7 +46,8 @@ img
 
 .banner h1 
 {
-    font-size: 4.2rem;
+    font-size: 4.5em;
+    font-weight: 700;
 }
 
 .margin-bottom
@@ -79,7 +88,7 @@ nav a:visited
     padding: 2rem 1rem 3rem 1rem;
     /* background-color: aqua; */
 
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #8b8b8b;
     text-align: center;
 }
 
@@ -115,7 +124,7 @@ nav a:visited
     padding: 2rem 1rem 1rem 1rem;
     /* background-color: aqua; */
 
-    border-bottom: 1px solid blue;
+    border-bottom: 1px solid #8b8b8b;
     text-align: center;
 }
 
@@ -207,5 +216,5 @@ nav a:visited
 
 .article p
 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
 }
