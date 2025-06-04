@@ -1,3 +1,211 @@
 *{
     font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* text-align: center; */
+    background-color: none
+}
+
+html
+{
+    font-size: 62.5%;
+}
+
+h2
+{
+    font-size: 2.2rem;
+}
+img
+{
+    height: 15rem;
+    width: 15rem;
+    border: 1px solid black;
+}
+
+.banner
+{
+    background-color: #d7d5d5;
+    height: 30vh;
+    text-align: center;
+    /* width: ; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20rem;
+}
+
+.banner h1 
+{
+    font-size: 4.2rem;
+}
+
+.margin-bottom
+{
+    margin-bottom: 1.4rem;
+}
+.bottom
+{
+    padding-bottom: 1.2rem;
+}
+
+
+.navigation
+{
+    background-color: #8d8b8b;
+    height: 3vh;
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+/* COME BACKKKKKKKKKKKFKFKFKFKFKFKFKFKFKFKFKFKFKFK */
+nav a:link,
+nav a:visited
+{
+    display: inline;
+
+    text-decoration: none;
+    color: black;
+}
+
+
+.student-orgs
+{
+    padding: 2rem 1rem 3rem 1rem;
+    /* background-color: aqua; */
+
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+
+.student-orgs h2 
+{
+    font-size: 2rem;
+}
+
+.tiles
+{
+    display: flex;
+    gap: 50px;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: 2.1rem auto;
+}
+
+
+.student-orgs article
+{
+    display: flex;
+    /* background-color: green; */
+
+    max-width: 15rem;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+.upcoming-events-section
+{
+    padding: 2rem 1rem 1rem 1rem;
+    /* background-color: aqua; */
+
+    border-bottom: 1px solid blue;
+    text-align: center;
+}
+
+.tiles
+{
+    display: flex;
+    gap: 8rem;
+    max-width: 70vw;
+    align-items: center;
+    justify-content: center;
+    margin: 2.1rem auto;
+}
+
+
+.tiles article
+{
+    display: flex;
+    /* background-color: green; */
+
+    max-width: 15rem;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.8rem;
+}
+
+.news-section
+{
+    padding: 1.5rem 1rem 3rem 1rem;
+
+}
+
+.news-section h2
+{
+    text-align: center;
+}
+.case
+{
+    max-width: 66.359rem;
+    margin: 0 auto 4rem auto;
+    display: grid;
+    grid-template-columns: 52% 40%;
+    column-gap: 4rem;
+    height: 27rem;
+    /* align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+    max-width: 66.359rem;
+    height: 27rem;
+    margin: 0 auto; */
+}
+
+.left-case
+{
+    text-align: center;
+    /* background-color: cyan; */
+
+    display: flex;
+    flex-direction: column;
+    /* width: 70%; */
+}
+
+.left-case img
+{
+    width: 100%;
+    height : 22rem;
+    margin-bottom: 1rem;
+}
+.left-case h3, .left-case p
+{
+    width: 100%;
+    text-align: left;
+}
+.headline
+{
+    margin-bottom: 0.5rem;
+    font-size: 1.6rem;
+}
+.article-title
+{
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+}
+
+.article
+{
+    margin-bottom: 1rem;
+}
+
+.article p
+{
+    font-size: 1.8rem;
 }
